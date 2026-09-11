@@ -21,7 +21,7 @@ public class HomePage {
 		
 		String title = driver.getTitle();
 		
-		
+		//checking title for web page 
 		if (title.contains("Online Shopping site in India"))
 				{
 			System.out.println("Title is correct");
@@ -35,8 +35,10 @@ public class HomePage {
 		WebElement searchbox = driver.findElement(By.id("twotabsearchtextbox"));
 		
 		searchbox.sendKeys("Iphone");
-	
+	//click on submit button
 		driver.findElement(By.id("nav-search-submit-button")).click();
+		
+		//close driver browser
 		driver.quit();
 	
 	}
