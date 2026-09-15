@@ -16,7 +16,7 @@ public class HomePage {
 		WebDriver driver= new ChromeDriver();
 		
 		driver.get("https://www.amazon.in/");
-		System.out.println("hello");
+		System.out.println("hello for testing");
 		
 		driver.findElement(By.id("nav-logo-sprites")).isDisplayed();
 		
