@@ -17,6 +17,7 @@ public class HomePage {
 		
 		driver.get("https://www.amazon.in/");
 		System.out.println("hello for testing");
+		System.out.println("hello for regression testing");
 		
 		driver.findElement(By.id("nav-logo-sprites")).isDisplayed();
 		
